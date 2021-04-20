@@ -1,0 +1,10 @@
+export const SUBSCRIBE = 'SUBSCRIBE';
+export const SUBMIT_CONTACT = 'SUBMIT_CONTACT';
+export const POST_PROMO = 'POST_PROMO';
+export const GET_QUOTE = 'GET_QUOTE';
+export const POST_LOGIN = 'POST_LOGIN';
+export const POST_SIGNUP = 'POST_SIGNUP';
+export const POST_RESET_PASSWORD = 'POST_RESET_PASSWORD';
+export const POST_CHANGE_PASSWORD = 'POST_CHANGE_PASSWORD';
+export const GET_SEARCH = 'GET_SEARCH';
+export const POST_COMMENT = 'POST_COMMENT';
