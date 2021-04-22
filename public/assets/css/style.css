@@ -190,16 +190,16 @@ strong, b{
     background: #f4f7fa;
 }
 .primary-bg{
-    background: #6730e3;
+    background: #20529A;
 }
 .secondary-bg{
-    background: #9629e6;
+    background: #2052e6;
 }
 .color-primary{
-    color: #6730e3;
+    color: #20529A;
 }
 .color-secondary{
-    color: #9629e6
+    color: #2052e6
 }
 .white-bg{
     background: #ffffff;
@@ -249,8 +249,11 @@ strong, b{
 }
 
 .primary-solid-btn{
-    border-color: #202877;
-    background: #202877;
+    background: 
+}
+.secondary-bg{
+    border-color: #20529A;
+    background:  #2052e6;
     color: #ffffff;
 }
 .primary-solid-btn:hover{
@@ -515,7 +518,7 @@ select.form-control.has-value{
     opacity: 1;
 }
 .bg-transparent.affix{
-    background-image: linear-gradient(to right, rgba(32, 40, 119, 1), rgba(55, 46, 149, 1), rgba(83, 49, 177, 1), rgba(114, 48, 205, 1), rgba(150, 41, 230, 1)) !important;
+    background-image: linear-gradient(to right, rgba(32, 82, 154, 1), rgba(52, 102, 164, 1)) !important;
 }
 .navbar{
     transition: all .3s ease-in-out;

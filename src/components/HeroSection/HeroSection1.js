@@ -91,24 +91,14 @@ class HeroSection extends React.Component {
               <div className="col-md-7 col-lg-6">
                 <div className="hero-content-left text-white">
                   <h1 className="text-white">
-                    <span>Brainstorming</span> for desired perfect Usability
+                    <span>ZOE Community</span> 
                   </h1>
                   <p className="lead">
                     {this.state.hero.description}
                   </p>
 
-                  <form method="post" className="subscribe-form" onSubmit={this.handleSubmit}>
-                    <div className="d-flex align-items-center">
-                      <input
-                        type="text"
-                        className="form-control input"
-                        id="email"
-                        name="email"
-                        placeholder="info@yourdomain.com"
-                        value={this.state.email}
-                        onChange={e => this.handleFormValueChange("email", e)}
-                      />
-                      <input
+                    
+                      <button
                         type="submit"
                         className="button btn solid-btn"
                         id="submit"
@@ -118,8 +108,7 @@ class HeroSection extends React.Component {
                           this.changeBtnText("Subscribing...");
                         }}
                       />
-                    </div>
-                  </form>
+                    
 
                   <div className="video-promo-content py-4 d-flex align-items-center">
                     <a

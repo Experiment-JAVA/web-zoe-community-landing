@@ -2,7 +2,7 @@ module.exports = {
   hero: {
     title: "Brainstorming for desired perfect Usability",
     description:
-      "Our design projects are fresh and simple and will benefit your business greatly. Learn more about our work!",
+      "Tu comunicación en una red abierta, segura y descentralizada. Comienza a invitar a tu equipo!",
     bgImage: "img/app-hero-bg.jpg"
   },
   promo: {

@@ -11,7 +11,8 @@ class Header extends React.Component {
               <a className="navbar-brand" href="/">
                 <img
                   src={this.props.bgColor && this.props.bgColor === 'white' ? "img/logo-color-1x.png" : "img/logo-white-1x.png"}
-                  width="120"
+                  width="200"
+                  height="60"
                   alt="logo"
                   className="img-fluid"
                 />
@@ -33,18 +34,13 @@ class Header extends React.Component {
                 id="navbarSupportedContent"
               >
                 <ul className="navbar-nav ml-auto">
-                  <li className="nav-item dropdown">
-                    <a
-                      className="nav-link page-scroll dropdown-toggle"
-                      href="/#"
-                      id="navbarDropdownHome"
-                      role="button"
-                      data-toggle="dropdown"
-                      aria-haspopup="true"
-                      aria-expanded="false"
-                    >
+                <li className="nav-item">
+                    <a className="nav-link page-scroll" href="#home">
                       Home
                     </a>
+                  </li>
+                 {/*  <li className="nav-item dropdown">
+                   
                     <div
                       className="dropdown-menu submenu"
                       aria-labelledby="navbarDropdownHome"
@@ -68,10 +64,11 @@ class Header extends React.Component {
                         Demo Template 6
                       </a>
                     </div>
-                  </li>
+                  </li> */}
+
                   <li className="nav-item">
                     <a className="nav-link page-scroll" href="#about">
-                      About
+                      Casos de uso
                     </a>
                   </li>
                   <li className="nav-item">
@@ -89,7 +86,7 @@ class Header extends React.Component {
                       Screenshots
                     </a>
                   </li>
-                  <li className="nav-item dropdown">
+                  {/* <li className="nav-item dropdown">
                       <a className="nav-link page-scroll dropdown-toggle" href="/#" id="navbarDropdownPage" role="button"
                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           Pages <span className="custom-nav-badge badge badge-danger badge-pill">New</span>
@@ -122,7 +119,7 @@ class Header extends React.Component {
                             <a className="dropdown-item" href="blogLeft">Blog Left Sidebar</a>
                             <a className="dropdown-item" href="blogRight">Details Right Sidebar</a>
                         </div>
-                    </li>
+                    </li> */}
                   <li className="nav-item">
                     <a className="nav-link page-scroll" href="#team">
                       Team
