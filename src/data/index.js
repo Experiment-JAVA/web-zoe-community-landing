@@ -2,7 +2,7 @@ module.exports = {
   hero: {
     title: "Brainstorming for desired perfect Usability",
     description:
-      "Tu comunicación en una red abierta, segura y descentralizada. Comienza a invitar a tu equipo!",
+      "Tu comunicación en una red encryptada, ultra segura y descentralizada. Comienza a invitar a tu equipo!",
     bgImage: "img/app-hero-bg.jpg"
   },
   promo: {
