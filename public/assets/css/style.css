@@ -1,5 +1,5 @@
 /*================
- Template Name: AppCo App Landing Page Template
+ Template Name: ZOE Community - Landing Page Under Construction
  Description: AppCo is app and product landing page template.
  Version: 1.0
  Author: https://themeforest.net/user/themetags
