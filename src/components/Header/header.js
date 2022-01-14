@@ -5,6 +5,7 @@ class Header extends React.Component {
   render() {
     return (
       <React.Fragment>
+        
         <header className="header">
           <nav className={"navbar navbar-expand-lg fixed-top " + (this.props.bgColor && this.props.bgColor === 'white' ? 'custom-nav white-bg' : 'bg-transparent')}>
             <div className="container">
@@ -34,11 +35,11 @@ class Header extends React.Component {
                 id="navbarSupportedContent"
               >
                 <ul className="navbar-nav ml-auto">
-                <li className="nav-item">
+                {/* <li className="nav-item">
                     <a className="nav-link page-scroll" href="#home">
                       Home
                     </a>
-                  </li>
+                  </li> */}
                  {/*  <li className="nav-item dropdown">
                    
                     <div
@@ -66,7 +67,7 @@ class Header extends React.Component {
                     </div>
                   </li> */}
 
-                  <li className="nav-item">
+                {/*   <li className="nav-item">
                     <a className="nav-link page-scroll" href="#about">
                       Casos de uso
                     </a>
@@ -85,7 +86,7 @@ class Header extends React.Component {
                     <a className="nav-link page-scroll" href="#screenshots">
                       Screenshots
                     </a>
-                  </li>
+                  </li> */}
                   {/* <li className="nav-item dropdown">
                       <a className="nav-link page-scroll dropdown-toggle" href="/#" id="navbarDropdownPage" role="button"
                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -120,7 +121,7 @@ class Header extends React.Component {
                             <a className="dropdown-item" href="blogRight">Details Right Sidebar</a>
                         </div>
                     </li> */}
-                  <li className="nav-item">
+                 {/*  <li className="nav-item">
                     <a className="nav-link page-scroll" href="#team">
                       Team
                     </a>
@@ -129,7 +130,7 @@ class Header extends React.Component {
                     <a className="nav-link page-scroll" href="#contact">
                       Contact
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>

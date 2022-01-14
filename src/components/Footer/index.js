@@ -16,7 +16,7 @@ class Footer extends React.Component {
     return (
       <React.Fragment>
         <footer className="footer-section">
-          <div
+          {/* <div
             className={"footer-top background-img-2 " + (this.props.noSubscription ? 'py-5' : 'pt-150 pb-5')} 
             style={{
               backgroundImage: "url('img/footer-bg.png')",
@@ -126,15 +126,18 @@ class Footer extends React.Component {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div className="footer-bottom gray-light-bg pt-4 pb-4">
             <div className="container">
               <div className="row text-center justify-content-center">
                 <div className="col-md-6 col-lg-5">
                   <p className="copyright-text pb-0 mb-0">
-                    Copyrights © 2019. All rights reserved by 
-                    <a href="/#"> ThemeTags</a>
+                    Made with love | 2022. All rights reserved by 
+                    <a href="/#"> ZOE Cash</a>
+                  </p>
+                  <p className="copyright-text pb-0 mb-0">
+                    We are a fork of Element.io
                   </p>
                 </div>
               </div>

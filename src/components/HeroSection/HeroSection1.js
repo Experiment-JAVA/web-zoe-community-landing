@@ -97,7 +97,7 @@ class HeroSection extends React.Component {
                     {this.state.hero.description}
                   </p>
 
-                    
+                    {/* 
                       <button
                         type="submit"
                         className="button btn solid-btn"
@@ -107,27 +107,31 @@ class HeroSection extends React.Component {
                         onClick={() => {
                           this.changeBtnText("Subscribing...");
                         }}
-                      />
+                      /> */}
                     
 
-                  <div className="video-promo-content py-4 d-flex align-items-center">
+                  <div className="py-4 d-flex align-items-center">
                     <a
-                      href="https://www.youtube.com/watch?v=9No-FiEInLA"
-                      className="popup-youtube video-play-icon-without-bip video-play-icon mr-3"
-                    >
-                      <span className="ti-control-play"></span>
-                    </a>{" "}
-                    Watch Video
+                      href="https://app.zoe.community"
+                      className="mr-3"
+                    >  
+                    <button>
+                     
+                    Prueba nuestra app
+                      </button>                    
+                    </a>
                   </div>
                 </div>
               </div>
               <div className="col-md-5 col-lg-5">
                 <div className="hero-animation-img">
-                  <img
-                    src="img/app-product.png"
+                  <div></div>
+                  {/* <img
+                    src=""
                     alt="app"
                     className="img-fluid"
-                  />
+                    style={{background:'transparent'}}
+                  /> */}
                 </div>
               </div>
             </div>

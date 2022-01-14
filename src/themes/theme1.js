@@ -22,7 +22,7 @@ class Theme extends Component {
         <Header />
         <div className="main">
           <HeroSection />
-          <PromoSection />
+           {/* <PromoSection />
           <AboutSection />
           <FeatureSection />
           <DownloadSection />
@@ -31,10 +31,11 @@ class Theme extends Component {
           <Screenshots />
           <TeamMember />
           <ContactSection />
-          <TrustedCompany />
+          <TrustedCompany /> */}
         </div>
-        <SubscribeSection />
-        <FooterSection />
+       {/*  <SubscribeSection /> */}
+        <FooterSection /> 
+        
       </React.Fragment>
     );
   }
